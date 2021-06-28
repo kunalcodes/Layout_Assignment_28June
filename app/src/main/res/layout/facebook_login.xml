@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:background="@drawable/ic_facebook"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="125dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter usernam or email id"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="60dp" />
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="30dp" />
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="LOGIN"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="90dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for facebook"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="95dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:drawableEnd="@drawable/ic_question_mark"
+        android:drawablePadding="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="10dp" />
+
+
+</LinearLayout>
