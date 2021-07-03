@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtopmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Pending Activation"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingHorizontal="10dp"
+        android:drawablePadding="20dp"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_arrowblack"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtopmenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="2 September , 2020" />
+    <TextView
+        android:id="@+id/tvstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Status : Expired" />
+    <TextView
+        android:id="@+id/tvlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvstatus"
+        android:layout_marginTop="60dp"
+        android:drawablePadding="10dp"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/ic_emojione_monotone_mobile_phone_off"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:text="Nexus 5 Insurance" />
+    <Button
+        android:id="@+id/btnactivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlogo"
+        android:layout_marginTop="30dp"
+        android:text="Activate Insurance now"
+        android:paddingVertical="15dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="40dp"
+        android:background="#18F148" />
+    <View
+        android:id="@+id/viewdetails"
+        android:layout_below="@+id/btnactivate"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Device :"
+        android:layout_alignTop="@+id/viewdetails"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="LGE Nexus 5"
+        android:layout_alignTop="@+id/viewdetails"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Insurance term :"
+        android:layout_alignTop="@+id/viewdetails"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="12 months"
+        android:layout_alignTop="@+id/viewdetails"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coverage"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginBottom="102dp"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/tvbottombar" />
+    <TextView
+        android:id="@+id/tvbottombar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingHorizontal="40dp"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/black"
+        android:text="All drops and breakage including cracked screen"/>
+</RelativeLayout>
