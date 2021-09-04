@@ -7,14 +7,15 @@
         android:id="@+id/tvtopmenu"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="Pending Activation"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        android:paddingHorizontal="10dp"
+        android:paddingStart="15dp"
+        android:background="@android:color/darker_gray"
+        android:drawableStart="@drawable/ic_arrowblack"
         android:drawablePadding="20dp"
         android:gravity="center_vertical"
-        android:drawableStart="@drawable/ic_arrowblack"
-        android:background="@android:color/darker_gray"/>
+        android:paddingHorizontal="10dp"
+        android:text="Pending Activation"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
     <TextView
         android:id="@+id/tvdate"
         android:layout_width="wrap_content"
