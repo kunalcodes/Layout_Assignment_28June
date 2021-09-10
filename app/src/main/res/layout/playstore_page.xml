@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <View
         android:id="@+id/view_top_screen"
         android:layout_width="match_parent"
@@ -114,12 +115,16 @@
         android:layout_alignParentEnd="true"
         android:background="@drawable/ic_tag"
         android:layout_margin="20dp"/>
+
     <Button
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/view_top_screen"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/ic_carbon_play_outline"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/ic_carbon_play_outline" />
 
 
 </RelativeLayout>
