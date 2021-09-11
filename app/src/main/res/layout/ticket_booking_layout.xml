@@ -35,7 +35,7 @@
         android:paddingHorizontal="10dp"
         android:drawablePadding="20dp"
         android:textSize="20dp"
-        android:text="1 Adult, Economy" />
+        android:text="1 Adult, Econmoy" />
     <View
         android:id="@+id/viewline1"
         android:layout_width="match_parent"
@@ -157,14 +157,15 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="150dp"
         android:layout_below="@id/viewpurple" />
+
     <View
         android:id="@+id/viewmaldives"
         android:layout_width="140dp"
         android:layout_height="80dp"
         android:layout_alignLeft="@id/viewline5"
+        android:layout_alignTop="@id/viewline5"
         android:layout_marginTop="20dp"
-        android:background="@drawable/maldives"
-        android:layout_alignTop="@id/viewline5" />
+        android:background="@drawable/maldives" />
     <TextView
         android:id="@+id/tvmaldives"
         android:layout_width="wrap_content"
