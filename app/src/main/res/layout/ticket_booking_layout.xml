@@ -35,7 +35,7 @@
         android:paddingHorizontal="10dp"
         android:drawablePadding="20dp"
         android:textSize="20dp"
-        android:text="1 Adult, Econmoy" />
+        android:text="1 Adult, Economy" />
     <View
         android:id="@+id/viewline1"
         android:layout_width="match_parent"
